@@ -26,10 +26,13 @@ Volley depencies added to transfer data and interact with server similar to api.
 bottom bar is made simple to get the 5 bottom bar navigation .
 
 Add this google play services dependencies in gradle(Module : app)
->classpath 'com.google.gms:google-services:3.1.0'
+```
+classpath 'com.google.gms:google-services:3.1.0'
+```
 add the reference plugin apply to gradle (Module : project)
->apply plugin: 'com.google.gms.google-services'
-
+```
+apply plugin: 'com.google.gms.google-services'
+```
 These permission to be added in the manifest file to give access to the internet and read write files.
 ```
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
