@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.intruders.kisho.studentbuddy.SelectCollege">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/app_name_select"
+        android:text="@string/app_name"
+        android:layout_marginTop="34dp"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/app_name_select"
+        android:background="@drawable/mainbg"
+        android:layout_marginTop="40dp"
+        android:id="@+id/frame"
+        android:layout_height="250dp"></FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/comment"
+        android:textSize="20sp"
+        android:text="@string/comment"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/app_name_select"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="35dp" />
+
+
+    <TextView
+        android:id="@+id/textView_region"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spin_region"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="30dp"
+        android:textSize="15sp"
+        android:layout_marginStart="32dp"
+        android:text="Region" />
+
+    <Spinner
+        android:id="@+id/spin_region"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/frame"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:id="@+id/textView_college"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spin_region"
+        android:textSize="15sp"
+        android:layout_marginStart="32dp"
+        android:text="College" />
+
+    <Spinner
+        android:id="@+id/spin_college"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_college"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/textView_dept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spin_college"
+        android:textSize="15sp"
+        android:layout_marginStart="32dp"
+        android:text="Department" />
+
+    <Spinner
+        android:id="@+id/spin_dept"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_dept"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/textView_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spin_dept"
+        android:textSize="15sp"
+        android:layout_marginStart="32dp"
+        android:text="Current Year" />
+
+    <Spinner
+        android:id="@+id/spin_year"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_year"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:onClick="moveTo"
+        android:id="@+id/button_next"
+        android:layout_below="@+id/spin_year"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+    </RelativeLayout>
+
+</ScrollView>

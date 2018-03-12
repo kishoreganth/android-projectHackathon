@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">STUDENT BUDDY</string>
+
+    <string name="login_hints">This app will send an SMS message to verify your phone number. Enter your country code and phone number.</string>
+
+    <string name="num_verification">Verify Number</string>
+    <string name="verify_hints">Wait to automatically detect an SMS sent to this number.</string>
+
+    <string name="comment">Explore Truth  </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="fontSizeNames">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="colourNames">
+        <item>Blue</item>
+        <item>Teal</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Orange</item>
+        <item>Red</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>White</item>
+    </string-array>
+    <string name="title_1">My Planner</string>
+    <string name="title_2">Materials</string>
+    <string name="title_3">Assignments and Task</string>
+
+    <string name="note_title">Title</string>
+    <string name="note_body">note</string>
+
+    <string name="text_1">aijflkasf</string>
+    <string name="action_search">Search</string>
+    <string name="action_backup">backup</string>
+    <string name="action_restore">restore</string>
+    <string name="favourite_content_description">favourite</string>
+    <string name="toast_edittext_cannot_be_empty">Title cannot be empty</string>
+    <string name="dialog_save_changes">Save Changes?</string>
+    <string name="yes_button">Yes</string>
+    <string name="no_button">No</string>
+    <string name="action_delete">delete</string>
+    <string name="action_show_body">show note bosy in list</string>
+    <string name="dialog_delete">deleting</string>
+    <string name="action_delete_selected_number">action delete selected</string>
+    <string name="toast_new_note">new note</string>
+    <string name="toast_note_saved">note saved</string>
+    <string name="toast_empty_note_discarded">empty note to be discarded</string>
+    <string name="toast_deleted">note deleted</string>
+    <string name="new_note_content_description">new NOte</string>
+    <string name="no_notes_text">press \'+\' to add notes</string>
+    <string name="dialog_check_backup_if_sure">Back up for sure</string>
+    <string name="toast_backup_failed">Backup failed</string>
+    <string name="toast_backup_no_notes">No noted to backup</string>
+    <string name="dialog_backup_created_title">backup created</string>
+    <string name="dialog_backup_created">created</string>
+    <string name="dialog_check_restore_if_sure">restore for sure</string>
+    <string name="toast_restore_successful">Notes restore succes</string>
+    <string name="toast_restore_unsuccessful">restore failed</string>
+    <string name="dialog_restore_failed_title">restoration failed</string>
+    <string name="dialog_restore_failed">restore failed</string>
+    <string name="dialog_rate_title">rate</string>
+    <string name="dialog_rate_message">rate me</string>
+    <string name="dialog_note_colour">color</string>
+    <string name="dialog_font_size">change font</string>
+    <string name="toast_note_body_showing">note is showing</string>
+    <string name="action_note_colour">note color</string>
+    <string name="action_font_size">font size</string>
+    <string name="action_hide_body" />
+    <string name="action_rate_app">rate</string>
+    <string name="toast_note_body_hidden">Note is hiddne</string>
+
+</resources>

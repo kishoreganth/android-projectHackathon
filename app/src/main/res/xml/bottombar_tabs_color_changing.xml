@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/ic_home_black_24dp"
+        title="Home"
+        barColorWhenSelected="#696969" />
+    <tab
+        id="@+id/tab_forum"
+        icon="@drawable/ic_dashboard_black_24dp"
+        title="Forum"
+        barColorWhenSelected="#696969" />
+    <tab
+        id="@+id/tab_nearby"
+        icon="@drawable/ic_location_on_black_24dp"
+        title="Nearby"
+        barColorWhenSelected="#696969" />
+    <tab
+        id="@+id/tab_friends"
+        icon="@drawable/ic_friends"
+        title="Friends"
+
+        barColorWhenSelected="#696969" />
+    <tab
+        id="@+id/tab_profile"
+        icon="@drawable/ic_sentiment_satisfied_black_24dp"
+        title="Profile"
+        barColorWhenSelected="#696969" />
+</tabs>
